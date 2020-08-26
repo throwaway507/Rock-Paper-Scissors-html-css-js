@@ -1,0 +1,112 @@
+body {
+    background-color: lightskyblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.rectangle {
+    width: 300px;
+    height: 150px;
+    border: 3px solid white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.player {
+    width: 60px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 3px solid white;
+}
+
+#player-text {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#pc {
+    width: 60px;
+    height: 50px;
+    margin-left: 225px;
+    margin-top: -54px;
+    border: 3px solid white;
+}
+
+#pc-text {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#player-score {
+    font-size: 45px;
+    margin-left: 100px;
+    margin-top: -55px;
+}
+
+#pc-score {
+    font-size: 45px;
+    margin-left: 178px;
+    margin-top: -49px;
+}
+
+#colon {
+    font-size: 45px;
+    margin-left: 145px;
+    margin-top: -55px;
+}
+
+#result {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0px 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+
+#rockimg {
+    margin-left: 13px;
+}
+
+#scissorsimg {
+    margin-left: 10px;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+.green-glow {
+    border: 3px solid #4dcc7d;
+    box-shadow: 0px 0px 10px #31b43a;
+}
+
+.red-glow {
+    border: 3px solid #fc121b;
+    box-shadow: 0px 0px 10px #d01115;
+}
+
+.gray-glow {
+    border: 3px solid #464647;
+    box-shadow: 0x 0x 10px #25292b;
+}
